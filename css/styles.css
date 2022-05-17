@@ -33,8 +33,9 @@ h3 {
 }
 
 footer section {
+  height: 200px;
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
-  background-image: url("../img/mexican-day.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url("../img/mexican-day.jpg");
 }
