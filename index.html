@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./favicon/favicon.ico"
+      type="image/x-icon"
+    />
+    <title>Mexican Skulls</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body class="bg-dark">
+    <header id="home">
+      <nav
+        class="navbar navbar-expand-md navbar-dark fixed-top mb-3 bg-dark shadow-lg rounded"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand h1 mb-0 text-warning" href="#home">
+            <img
+              src="./img/sugar-skull-png.webp"
+              alt="mexican skull"
+              class="align-text-top me-1"
+            />
+            Mexican Skulls
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarCollapse"
+          >
+            <ul class="navbar-nav mb-2 mb-md-0 fs-4 fw-semibold">
+              <li class="nav-item mx-3">
+                <a
+                  class="nav-link text-warning"
+                  aria-current="page"
+                  href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link text-info" href="#history">History</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link text-white" href="#contact">Contacts</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <section
+        id="carouselInterval"
+        class="carousel slide container-xxl mx-auto"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="5000">
+            <img
+              src="./img/skull-hand-01.jpg"
+              class="d-block w-50 mx-auto img-fluid img-thumbnail rounded-4"
+              alt="angry mexican skulls"
+            />
+            <div
+              class="carousel-caption d-none d-xl-flex justify-content-center"
+            >
+              <h4 class="text-warning shadow-md mb-0 bg-dark bg-opacity-75">
+                Angry mexican skulls
+              </h4>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img
+              src="./img/skull-hand-02.jpg"
+              class="d-block mx-auto w-50 img-fluid img-thumbnail rounded-4"
+              alt="black and white mexican skulls"
+            />
+            <div
+              class="carousel-caption d-none d-xl-flex justify-content-center"
+            >
+              <h4 class="text-primary bg-white bg-opacity-75 shadow-md">
+                black and white mexican skulls
+              </h4>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img
+              src="./img/skull-hand-03.jpg"
+              class="d-block mx-auto w-50 img-fluid img-thumbnail rounded-4"
+              alt="nice mexican skulls"
+            />
+            <div
+              class="carousel-caption d-none d-xl-flex justify-content-center"
+            >
+              <h4 class="text-white shadow-md mb-0 bg-danger bg-opacity-75">
+                nice mexican skulls
+              </h4>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img
+              src="./img/skull-hand-04.jpg"
+              class="d-block mx-auto w-50 img-fluid img-thumbnail rounded-4"
+              alt="toothy mexican skulls"
+            />
+            <div
+              class="carousel-caption d-none d-xl-flex justify-content-center"
+            >
+              <h4 class="text-white shadow-md mb-0 bg-dark bg-opacity-75">
+                toothy mexican skulls
+              </h4>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img
+              src="./img/skull-hand-05.jpg"
+              class="d-block mx-auto w-50 img-fluid img-thumbnail rounded-4"
+              alt="flowered mexican skulls"
+            />
+            <div
+              class="carousel-caption d-none d-xl-flex justify-content-center"
+            >
+              <h4 class="text-warning shadow-md mb-0 bg-dark bg-opacity-75">
+                flowered mexican skulls
+              </h4>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img
+              src="./img/skull-hand-06.jpg"
+              class="d-block mx-auto w-50 img-fluid img-thumbnail rounded-4"
+              alt="realistic skulls"
+            />
+            <div
+              class="carousel-caption d-none d-xl-flex justify-content-center"
+            >
+              <h4 class="text-black shadow-md mb-0 bg-white bg-opacity-75">
+                realistic skulls
+              </h4>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselInterval"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselInterval"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </section>
+    </header>
+    <main id="history" class="container-fluid text-warning mt-5 px-4">
+      <h1 class="text-center">History</h1>
+      <div class="row mt-4">
+        <section class="col-12 col-xl-9 container">
+          <div class="row">
+            <h2 class="d-block w-100 text-center">Calaveras</h2>
+          </div>
+          <div class="row">
+            <article class="col-12 col-lg-6 col-xl">
+              <h3>Day of the dead</h3>
+              <p>
+                The Day of the Dead (Spanish: Día de Muertos or Día de los
+                Muertos) is a holiday traditionally celebrated on November 1 and
+                2, though other days, such as October 31 or November 6, may be
+                included depending on the locality. It largely originated in
+                Mexico, where it is mostly observed, but also in other places,
+                especially by people of Mexican heritage elsewhere. Although
+                associated with the Western Christian Allhallowtide observances
+                of All Hallow's Eve, All Saints' Day and All Souls' Day, it has
+                a much less solemn tone and is portrayed as a holiday of joyful
+                celebration rather than mourning.The multi-day holiday involves
+                family and friends gathering to pay respects and to remember
+                friends and family members who have died. These celebrations can
+                take a humorous tone, as celebrants remember funny events and
+                anecdotes about the departed.
+              </p>
+              <p>
+                Traditions connected with the holiday include honoring the
+                deceased using calaveras and aztec marigold flowers known as
+                cempazúchitl, building home altars called ofrendas with the
+                favorite foods and beverages of the departed, and visiting
+                graves with these items as gifts for the deceased. The
+                celebration is not solely focused on the dead, as it is also
+                common to give gifts to friends such as candy sugar skulls, to
+                share traditional pan de muerto with family and friends, and to
+                write light-hearted and often irreverent verses in the form of
+                mock epitaphs dedicated to living friends and acquaintances, a
+                literary form known as calaveras literarias.
+              </p>
+              <p>
+                In 2008, the tradition was inscribed in the Representative List
+                of the Intangible Cultural Heritage of Humanity by UNESCO.
+              </p>
+              <p>
+                A common symbol of the holiday is the skull (in Spanish
+                calavera), which celebrants represent in masks, called calacas
+                (colloquial term for skeleton), and foods such as chocolate or
+                sugar skulls, which are inscribed with the name of the recipient
+                on the forehead. Sugar skulls can be given as gifts to both the
+                living and the dead. Other holiday foods include pan de muerto,
+                a sweet egg bread made in various shapes from plain rounds to
+                skulls, often decorated with white frosting to look like twisted
+                bones.
+              </p>
+              <img
+                src="./img/Dia-de-los-muertos-cookie-sugar-skulls.jpg"
+                alt="day of the dead cookies"
+                class="img-fluid p-3 d-block mx-auto"
+              />
+            </article>
+            <article class="col-12 col-lg-6 col-xl">
+              <h3>Origins and history</h3>
+              <p>
+                Views differ on whether the festivity has indigenous
+                pre-Hispanic roots, whether it is a more modern adaptation of an
+                existing European tradition, or a combination of both as a
+                manifestation of syncretism. Similar traditions can be traced
+                back to Medieval Europe, where celebrations like All Saints' Day
+                and All Souls' Day are observed on the same days in places like
+                Spain and Southern Europe. Critics of the native American origin
+                claim that even though pre-Columbian Mexico had traditions that
+                honored the dead, current depictions of the festivity have more
+                in common with European traditions of Danse macabre and their
+                allegories of life and death personified in the human skeleton
+                to remind us the ephemeral nature of life. Over the past
+                decades, however, Mexican academia has increasingly questioned
+                the validity of this assumption, even going as far as calling it
+                a politically motivated fabrication. Historian Elsa Malvido,
+                researcher for the Mexican INAH and founder of the institute's
+                Taller de Estudios sobre la Muerte, was the first to do so in
+                the context of her wider research into Mexican attitudes to
+                death and disease across the centuries. Malvido completely
+                discards a native or even syncretic origin arguing that the
+                tradition can be fully traced to Medieval Europe. She highlights
+                the existence of similar traditions on the same day, not just in
+                Spain, but in the rest of Catholic Southern Europe and Latin
+                America such as altars for the dead, sweets in the shape of
+                skulls and bread in the shape of bones.
+              </p>
+              <p>
+                The historian Ricardo Pérez Montfort has further demonstrated
+                how the ideology known as indigenismo became more and more
+                closely linked to post-revolutionary official projects whereas
+                Hispanismo was identified with conservative political stances.
+                This exclusive nationalism began to displace all other cultural
+                perspectives to the point that in the 1930s, the Aztec god
+                Quetzalcoatl was officially promoted by the government as a
+                substitute for the Spanish Three Kings tradition, with a person
+                dressed up as the deity offering gifts to poor children.
+              </p>
+              <img
+                src="./img/skull-land-01.jpg"
+                alt="skull set"
+                class="img-fluid p-3"
+              />
+            </article>
+          </div>
+        </section>
+        <aside class="col-12 col-xl-3 container">
+          <div class="row">
+            <h2 class="d-block w-100 text-center">Celebrations</h2>
+            <h3>Mexico</h3>
+            <p>
+              In Mexico, the colorful, much anticipated, Day of the Dead
+              celebrations are generally celebrated in the states from Mexico
+              City south. This includes Michoacan, Mexico, Puebla, Oaxaca,
+              Veracruz, Guerrero, Guanajuato, Chiapas and the Yucatan. Northern
+              Mexico, with its less indigenous and more European roots, spend
+              the day scrubbing graves and going to Mass… not having music,
+              drinks and parties in the cemeteries.
+            </p>
+            <p>
+              Folks in parts of Italy, Spain, Central & South America and the
+              Philippines all celebrate All Souls and All Saints Day on November
+              1st and 2nd. Special Masses and perhaps cleaning of the cemetery
+              tombs are part of the traditional activities…
+            </p>
+            <p>
+              Chocolate sugar skulls are hand molded & decorated and sold by the
+              thousands at the Sugar Skull Fair. Candy makers work for 4-6
+              months to have enough merchandise for the sale. Sugar skulls are
+              sometimes eaten, but their main function is to adorn the altars
+              and tombs with a sugary delight for the visiting spirits!
+              Miniature candy skulls are made for the baby angelitos and are
+              displayed on the home ofrendas on November 1… then replaced with
+              full size skulls on November 2 for the returning adult spirits!
+            </p>
+            <img
+              src="./img/Day-of-The-Dead-Festival.jpg"
+              alt="mexican day"
+              class="img-fluid p-3"
+            />
+          </div>
+        </aside>
+      </div>
+    </main>
+    <footer id="contact" class="container-fluid bg-dark bg-opacity-75">
+      <section class="contacts rounded">
+        <ul>
+          <li>
+            <a href="#twitter"><img src="" alt="twitter" /></a>
+          </li>
+          <li>
+            <a href="#facebook"><img src="" alt="facebook" /></a>
+          </li>
+          <li>
+            <a href="#instagram"><img src="" alt="instagram" /></a>
+          </li>
+        </ul>
+      </section>
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
