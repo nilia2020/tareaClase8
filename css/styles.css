@@ -39,3 +39,14 @@ footer section {
   background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
     url("../img/mexican-day.jpg");
 }
+
+footer img {
+  background: white;
+  color: white;
+  opacity: 1;
+  height: 50px;
+}
+
+footer li {
+  list-style: none;
+}
