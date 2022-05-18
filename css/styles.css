@@ -37,7 +37,7 @@ h3 {
   text-align: center;
   color: aqua;
 }
-
+/* El footer tiene una imagen de background con una sombra y escala de grises para que tenga buen contraste con el texto y los iconos */
 footer section {
   height: 200px;
   background-repeat: no-repeat;
@@ -57,7 +57,8 @@ footer img:hover {
   filter: drop-shadow(16px 16px 32px rgb(0, 0, 14)) grayscale(0);
   width: 60px;
 }
-
+/* Como tiene aplicado flex, defino un tamaño de li que me deje aumentar de tamaño los iconos y 
+que no se muevan */
 footer li {
   list-style: none;
   width: 60px;
