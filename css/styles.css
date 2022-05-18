@@ -2,11 +2,17 @@ nav img {
   height: 40px;
 }
 
+#navbarCollapse ul li a:hover {
+  transform: scale(110%);
+  text-shadow: 4px 4px 4px rgb(138, 110, 8);
+}
+
 .h1 {
   font-size: 2rem;
 }
 
-#carouselInterval {
+#carouselInterval,
+#carousel-aside {
   margin-top: 100px;
 }
 
@@ -36,17 +42,24 @@ footer section {
   height: 200px;
   background-repeat: no-repeat;
   background-size: cover;
-  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("../img/mexican-day.jpg");
+  filter: grayscale(50%);
 }
 
 footer img {
-  background: white;
-  color: white;
-  opacity: 1;
-  height: 50px;
+  width: 50px;
+  filter: drop-shadow(8px 8px 16px rgb(1, 1, 54)) grayscale(80%)
+    brightness(120%);
+}
+
+footer img:hover {
+  filter: drop-shadow(16px 16px 32px rgb(0, 0, 14)) grayscale(0);
+  width: 60px;
 }
 
 footer li {
   list-style: none;
+  width: 60px;
+  height: 60px;
 }
